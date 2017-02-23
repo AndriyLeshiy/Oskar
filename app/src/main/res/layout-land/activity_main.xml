@@ -9,7 +9,6 @@
 
     <ImageView
         android:layout_width="match_parent"
-
         android:layout_height="50dp"
         android:scaleType="fitXY"
         android:src="@drawable/oskar_land" />
@@ -27,13 +26,13 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/preview_label"
         android:textColor="@color/link_color"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="italic" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp">
+        android:layout_marginTop="5dp">
 
         <TextView
             android:id="@+id/number_kiev"
@@ -43,7 +42,7 @@
             android:layout_weight="1"
             android:text="@string/phone_number_kiev"
             android:textColor="@color/black"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/number_home"
@@ -53,7 +52,7 @@
             android:layout_weight="1"
             android:text="@string/phone_number_home"
             android:textColor="@color/black"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>
