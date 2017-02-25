@@ -3,5 +3,6 @@
     <string name="googleApiKey">AIzaSyDibmxjdGQd24kP5ZIjGcIMwvmfyLxTJiA</string>
     <string name="phone_number_kiev">0674740906</string>
     <string name="phone_number_home">0472386883</string>
+    <string name="phone_number_999">999</string>
     <string name="preview_label">Preview site Oskar</string>
 </resources>

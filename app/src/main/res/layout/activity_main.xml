@@ -20,6 +20,16 @@
         android:layout_width="match_parent"
         android:layout_height="215dp" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/imagelink" />
     <TextView
         android:id="@+id/link_Oskar"
         android:layout_width="wrap_content"
@@ -29,8 +39,20 @@
         android:textColor="@color/link_color"
         android:textSize="20dp"
         android:textStyle="italic" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/imagecall" />
     <TextView
+
         android:id="@+id/number_kiev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,7 +61,18 @@
         android:text="@string/phone_number_kiev"
         android:textColor="@color/black"
         android:textSize="20dp" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/imagecall" />
     <TextView
         android:id="@+id/number_home"
         android:layout_width="wrap_content"
@@ -49,5 +82,5 @@
         android:text="@string/phone_number_home"
         android:textColor="@color/black"
         android:textSize="20dp" />
-
+    </LinearLayout>
 </LinearLayout>

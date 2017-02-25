@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         map.setBuildingsEnabled(true);
         map.getUiSettings().setZoomControlsEnabled(true);
-
         map.addMarker(new MarkerOptions().position(oskar).title("Oskar bar"));
 
         CameraPosition pos = CameraPosition.builder().target(oskar).zoom(15).build();
